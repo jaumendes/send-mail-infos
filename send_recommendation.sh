@@ -21,7 +21,7 @@ elap2="$(date -u +%s)"
 
 
 # SEND EMAIL
-sudo swaks --to jaumendes101@gmail.com --header "Subject: Report AliExpress - $(date)" --body "$start_time" --attach /opt/send-mail-infos/plano.txt --attach $metricsFile --attach-type text/html --attach-body /opt/send-mail-infos/templates/hello.html  -tls
+sudo swaks --to jaumendes101@gmail.com --header "Subject: Report AliExpress - $(date)" --body "$start_time" --attach /opt/send-mail-infos/plano.txt --attach $metricsFile  -tls
 
 checkpoint="$(($elap2-$elap1))"
 
