@@ -15,3 +15,7 @@ yum -y install python-pip
 pip3 install requests pandas xlsxwriter
 
 locale
+
+cd /opt
+
+git clone  https://github.com/jaumendes/send-mail-infos.git
