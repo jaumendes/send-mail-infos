@@ -19,3 +19,7 @@ locale
 cd /opt
 
 git clone  https://github.com/jaumendes/send-mail-infos.git
+
+cd send-mail-infos
+sudo python3 get_recommendation.py plano.txt
+sudo sh send_recommendation.sh
