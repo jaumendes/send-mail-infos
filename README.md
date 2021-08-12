@@ -1,3 +1,5 @@
+>> Script to read a file (plano.txt) with alibaba links and create a price control report, to send via email every day
+
 # send-mail-infos
 
 
