@@ -27,7 +27,11 @@ sudo sh send_recommendation.sh
 
 
 # WINDOWS INSTALL
+
 PS> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
 PS> choco install python3 --pre 
+
 PS> choco install python-pip3
+
 PS> pip3 install requests pandas xlsxwriter
