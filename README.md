@@ -1,6 +1,6 @@
 >> Script to read a file (plano.txt) with alibaba links and create a price control report, to send via email every day
 
-# CENT OS #
+# CENT OS INSTALL#
 
 yum -y update
 
@@ -35,3 +35,15 @@ PS> choco install python3 --pre
 PS> choco install python-pip3
 
 PS> pip3 install requests pandas xlsxwriter
+
+# CRONTAB #
+
+crontab -l
+
+crontab -e 
+
+
+8 * * * * sh /opt/send-mail-infos/send_recommendation.sh
+
+cat /etc/crontab
+
